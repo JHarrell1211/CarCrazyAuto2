@@ -1,0 +1,203 @@
+﻿/*.container-head {
+    display: grid;
+    min-width: 100%;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 100px)
+}*/
+
+.item-1 {
+    /*grid-row: 1;
+    grid-column: 1 / span 12;*/
+    background-color: black;
+    overflow: hidden;
+    background-color: black !important;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
+}
+.navbar {
+    height: 100px;
+}
+/* Links inside the navbar */
+.navbar a {
+    /*float: left;*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Merienda One', cursive;
+}
+
+#name {
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#info, #inventory {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+
+/*.grid-item-2{
+    grid-row: 2 / span 3;
+    grid-column: 3 / span 8;
+}*/
+
+.pic1 {
+   color: white;
+}
+
+.rowcarousel {
+    /*display: flex;*/
+    margin-top: 120px;
+}
+
+.button {
+    /*width: 50%;*/
+    background-color: #f9840e;
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover{
+    text-decoration: none;
+}
+
+/*container for grid item 3*/
+/*.container-head2 {
+    display: grid;
+    min-width: 100%;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 100px)
+}*/
+
+.grid-item-3 {
+    /*grid-row: 9;*/
+    /*grid-row: 3;
+    grid-column: 1 / span 12;*/
+    width: 100%;
+    background-color: black;
+    /*margin-top: 80px;*/
+}
+
+#inventory {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 45%;
+    /*margin-top: 25px;*/
+}
+
+.descriptions {
+    background-color: white;
+    padding-top: 40px;
+    font-family: 'Merienda One', cursive;
+}
+
+.rowinv{
+    height: 200px;
+    background-color: white;
+}
+.rowcar1 {
+    margin-top: 80px;
+    height: 300px;
+}
+
+.rowcar {
+    margin-top: 80px;
+    height: 300px;
+}
+
+/*car pictures*/
+.colrow2 {
+    background: url('Images/image1 (1).jpeg')no-repeat center center;
+    background-size: cover;
+}
+
+.colrow3 {
+    background: url('Images/image1 (2).jpeg')no-repeat center center;
+    background-size: cover;
+}
+
+.colrow4 {
+    background-size: cover;
+}
+
+.colrow5 {
+    background: url('Images/image1 (4).jpeg')no-repeat center center;
+    background-size: cover;
+}
+
+.colrow6 {
+    background: url('Images/image1 (5).jpeg')no-repeat center center;
+    background-size: cover;
+}
+
+.colrow7 {
+
+    background-size: cover;
+}
+
+.colrow8 {
+    background-image: url('Images/image1 (8).jpeg');
+    background-size: cover;
+}
+
+.colrow9 {
+    background: url('Images/image1 (9).jpeg')no-repeat center center;
+    background-size: cover;
+}
+
+.colrow10 {
+    background-image: url('Images/image1 (10).jpeg');
+    background-size: cover;
+}
+
+.colrow11 {
+    background-image: url('Images/image1.jpeg');
+    background-size: cover;
+}
+
+.container-foot {
+    display: grid;
+    min-width: 100%;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 100px)
+}
+
+.grid-item-4 {
+    grid-row: 2;
+    grid-column: 1 / span 12;
+    background-color: black;
+    width: 100%;
+}
